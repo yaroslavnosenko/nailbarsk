@@ -51,7 +51,7 @@ export const Footer = () => {
           </Box>
         </Stack>
       </Container>
-      <Box bg="brand.500" p="4" textAlign="center" color="gray.900">
+      <Box p="4" textAlign="center" color="white">
         © Copyright 2022 nailbar.sk
       </Box>
     </Box>
