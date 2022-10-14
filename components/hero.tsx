@@ -61,7 +61,7 @@ export const Hero = () => {
             <Image src="/img3.jpeg" objectFit="cover" />
           </AspectRatio>
         </SimpleGrid>
-        <HStack mt="16" justify="space-between" align="flex-end">
+        <HStack mt="20" justify="space-between" align="flex-end">
           <Box>
             <Text
               mb="2"
@@ -81,14 +81,7 @@ export const Hero = () => {
 
       <Box bg="white">
         <Container maxW="container.xl">
-          <Box
-            rounded="md"
-            position="relative"
-            bg="white"
-            p="8"
-            top="-16"
-            shadow="xl"
-          >
+          <Box position="relative" bg="white" p="8" top="-16" shadow="xl">
             <HStack textAlign="center" justify="space-around">
               <Box>
                 <Heading size="lg">
@@ -101,11 +94,15 @@ export const Hero = () => {
                     PM
                   </Text>
                 </Heading>
-                <Text textTransform="uppercase">PON - SOB</Text>
+                <Text textTransform="uppercase" opacity="0.7">
+                  PON - SOB
+                </Text>
               </Box>
               <Box>
-                <Heading size="lg">Closed</Heading>
-                <Text textTransform="uppercase">NED</Text>
+                <Heading size="lg">Zavreté</Heading>
+                <Text textTransform="uppercase" opacity="0.7">
+                  NED
+                </Text>
               </Box>
             </HStack>
           </Box>

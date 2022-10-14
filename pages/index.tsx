@@ -1,6 +1,6 @@
 import { Box } from '@chakra-ui/react'
 import type { NextPage } from 'next'
-import { Header, Footer, Hero, Features } from '../components'
+import { Header, Footer, Hero, Features, Map } from '../components'
 
 const Home: NextPage = () => {
   return (
@@ -9,6 +9,7 @@ const Home: NextPage = () => {
       <Box as="main">
         <Hero />
         <Features />
+        <Map />
       </Box>
       <Footer />
     </>

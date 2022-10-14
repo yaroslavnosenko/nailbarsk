@@ -1,26 +1,62 @@
-import { Box, Container, Stack, Text } from '@chakra-ui/react'
+import {
+  Box,
+  Container,
+  Heading,
+  SimpleGrid,
+  Stack,
+  Text,
+} from '@chakra-ui/react'
 import Image from 'next/image'
 
 export const Features = () => {
   return (
-    <Box as="section" minH="20" bg="white" py="16">
-      <Container maxW="container.lg">
-        <Stack direction="row" justify="space-between" spacing="0">
-          <Box textAlign="center">
-            <Image src="/icon3.svg" alt="Nailbar" width={96} height={96} />
-            <Text>Feature 1</Text>
+    <Box as="section" bg="white" pt="8" pb="28">
+      <Container maxW="container.xl">
+        <Heading>What can you expect?</Heading>
+        <Text>
+          A bundle of 210+ ready-to-use, responsive and accessible components
+          with clever structured sourcode files.
+        </Text>
+        <SimpleGrid columns={3} mt="12" gap="4">
+          <Box>
+            <Box bg="brand.500" boxSize="20" p="4" rounded="xl">
+              <Image src="/icon3.svg" alt="Nailbar" width={48} height={48} />
+            </Box>
+            <Heading size="lg" mt="6">
+              210+ Components
+            </Heading>
+            <Text>
+              Chakra UI Pro has 210+ componentsto help you develop your project
+              faster.
+            </Text>
           </Box>
 
-          <Box textAlign="center">
-            <Image src="/icon1.svg" alt="Nailbar" width={96} height={96} />
-            <Text>Feature 2</Text>
+          <Box>
+            <Box bg="brand.500" boxSize="20" p="4" rounded="xl">
+              <Image src="/icon5.svg" alt="Nailbar" width={48} height={48} />
+            </Box>
+            <Heading size="lg" mt="6">
+              Production Ready
+            </Heading>
+            <Text>
+              Effortlessly create your next production-ready experience with
+              Chakra UI Pro components.
+            </Text>
           </Box>
 
-          <Box textAlign="center">
-            <Image src="/icon5.svg" alt="Nailbar" width={96} height={96} />
-            <Text>Feature 3</Text>
+          <Box>
+            <Box bg="brand.500" boxSize="20" p="4" rounded="xl">
+              <Image src="/icon1.svg" alt="Nailbar" width={48} height={48} />
+            </Box>
+            <Heading size="lg" mt="6">
+              Light and Dark
+            </Heading>
+            <Text>
+              All components support a light and a dark color mode out of the
+              box.
+            </Text>
           </Box>
-        </Stack>
+        </SimpleGrid>
       </Container>
     </Box>
   )

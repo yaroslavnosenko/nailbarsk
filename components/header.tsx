@@ -5,7 +5,7 @@ import { FiInstagram, FiFacebook } from 'react-icons/fi'
 
 export const Header = () => {
   return (
-    <Box as="header" bg="gray.900" pt="4">
+    <Box as="header" bg="gray.900" pt="8">
       <Container maxWidth="container.xl">
         <Head>
           <title>Nail Bar SK</title>
