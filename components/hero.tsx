@@ -12,7 +12,7 @@ import { Image } from '@chakra-ui/react'
 
 export const Hero = () => {
   return (
-    <Box as="section">
+    <Box as="section" pt="8">
       <Container maxW="container.xl" pb="28">
         <Heading mb="4" color="white" maxW="md" mx="auto" textAlign="center">
           Life is not perfect, but your nails can be

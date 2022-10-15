@@ -14,12 +14,12 @@ export const Header = () => {
         </Head>
         <HStack spacing="0" justify="space-between">
           <Image src="/logo.jpeg" alt="Nailbar" width={96} height={96} />
-          <HStack spacing={2}>
-            <Link boxSize={8} p={2}>
-              <Icon as={FiFacebook} boxSize={4} color="brand.500" />
+          <HStack spacing={6}>
+            <Link>
+              <Icon as={FiFacebook} boxSize={6} color="brand.500" />
             </Link>
-            <Link boxSize={8} p={2}>
-              <Icon as={FiInstagram} boxSize={4} color="brand.500" />
+            <Link>
+              <Icon as={FiInstagram} boxSize={6} color="brand.500" />
             </Link>
           </HStack>
         </HStack>
