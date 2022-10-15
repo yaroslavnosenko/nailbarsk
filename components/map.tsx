@@ -11,6 +11,8 @@ export const Map = () => {
         height={300}
         defaultZoom={17}
         defaultCenter={[48.72131, 21.25553]}
+        touchEvents={false}
+        mouseEvents={false}
       >
         <Marker width={50} anchor={[48.72131, 21.25553]} />
       </MMap>
