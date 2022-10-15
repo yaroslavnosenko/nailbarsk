@@ -7,6 +7,7 @@ import {
   HStack,
   SimpleGrid,
   Text,
+  Stack,
 } from '@chakra-ui/react'
 import { Image } from '@chakra-ui/react'
 
@@ -21,7 +22,7 @@ export const Hero = () => {
           Mäsiarska 17 • Košice
         </Text>
 
-        <SimpleGrid columns={3} gap={8}>
+        <SimpleGrid columns={[1, 3]} gap={[4, 8]}>
           <AspectRatio
             overflow="hidden"
             cursor="pointer"
@@ -31,7 +32,7 @@ export const Hero = () => {
             }}
             transition="ease-in-out 0.5s"
             ratio={1}
-            my="6"
+            my={[0, 6]}
           >
             <Image src="/img1.jpeg" objectFit="cover" />
           </AspectRatio>
@@ -56,13 +57,18 @@ export const Hero = () => {
             }}
             transition="ease-in-out 0.5s"
             ratio={1}
-            my="6"
+            my={[0, 6]}
           >
             <Image src="/img3.jpeg" objectFit="cover" />
           </AspectRatio>
         </SimpleGrid>
-        <HStack mt="20" justify="space-between" align="flex-end">
-          <Box>
+        <Stack
+          direction={['column', 'row']}
+          mt="20"
+          justify="space-between"
+          align="flex-end"
+        >
+          <Box py="2">
             <Text
               mb="2"
               fontWeight="600"
@@ -73,10 +79,15 @@ export const Hero = () => {
             </Text>
             <Heading color="white">Robime vsetko pre nasich klientov</Heading>
           </Box>
-          <Button size="lg" colorScheme="brand" color="black">
+          <Button
+            w={['full', 'auto']}
+            size="lg"
+            colorScheme="brand"
+            color="black"
+          >
             Rezervacia
           </Button>
-        </HStack>
+        </Stack>
       </Container>
 
       <Box bg="white">

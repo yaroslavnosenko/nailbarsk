@@ -17,8 +17,8 @@ export const Features = () => {
           A bundle of 210+ ready-to-use, responsive and accessible components
           with clever structured sourcode files.
         </Text>
-        <SimpleGrid columns={3} mt="12" gap="4">
-          <Box>
+        <SimpleGrid columns={[1, 3]} gap="4">
+          <Box mt="12">
             <Box bg="brand.500" boxSize="20" p="4" rounded="xl">
               <Image src="/icon3.svg" alt="Nailbar" width={48} height={48} />
             </Box>
@@ -31,7 +31,7 @@ export const Features = () => {
             </Text>
           </Box>
 
-          <Box>
+          <Box mt="12">
             <Box bg="brand.500" boxSize="20" p="4" rounded="xl">
               <Image src="/icon5.svg" alt="Nailbar" width={48} height={48} />
             </Box>
@@ -44,7 +44,7 @@ export const Features = () => {
             </Text>
           </Box>
 
-          <Box>
+          <Box mt="12">
             <Box bg="brand.500" boxSize="20" p="4" rounded="xl">
               <Image src="/icon1.svg" alt="Nailbar" width={48} height={48} />
             </Box>
