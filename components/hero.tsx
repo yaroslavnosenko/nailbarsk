@@ -10,6 +10,7 @@ import {
   Stack,
 } from '@chakra-ui/react'
 import { Image } from '@chakra-ui/react'
+import Link from 'next/link'
 
 export const Hero = () => {
   return (
@@ -23,6 +24,21 @@ export const Hero = () => {
         </Text>
 
         <SimpleGrid columns={[1, 3]} gap={[4, 8]}>
+          <Box />
+          <Link href="https://www.fresha.com/uk/a/nail-bar-kosicky-kraj-masiarska-17-fgi2bp0k/booking?menu=true&pId=672359">
+            <Button
+              mb="12"
+              w={['full', 'auto']}
+              size="lg"
+              colorScheme="brand"
+              color="black"
+            >
+              Online rezervácia
+            </Button>
+          </Link>
+        </SimpleGrid>
+
+        <SimpleGrid columns={[1, 3]} gap={[4, 8]}>
           <AspectRatio
             overflow="hidden"
             cursor="pointer"
@@ -32,7 +48,6 @@ export const Hero = () => {
             }}
             transition="ease-in-out 0.5s"
             ratio={1}
-            my={[0, 6]}
           >
             <Image src="/img1.jpeg" objectFit="cover" />
           </AspectRatio>
@@ -57,7 +72,6 @@ export const Hero = () => {
             }}
             transition="ease-in-out 0.5s"
             ratio={1}
-            my={[0, 6]}
           >
             <Image src="/img3.jpeg" objectFit="cover" />
           </AspectRatio>
@@ -69,48 +83,42 @@ export const Hero = () => {
           align="flex-end"
         >
           <Box py="2">
-            <Text
-              mb="2"
-              fontWeight="600"
-              textTransform="uppercase"
-              color="brand.500"
-            >
-              Opening hours
-            </Text>
-            <Heading color="white">Robime vsetko pre nasich klientov</Heading>
+            <Heading color="white">
+              Tvoja najlepšia manikúra a pedikúra v Nail Bar
+            </Heading>
           </Box>
-          <Button
-            w={['full', 'auto']}
-            size="lg"
-            colorScheme="brand"
-            color="black"
-          >
-            Rezervacia
-          </Button>
+          <Link href="https://www.fresha.com/uk/a/nail-bar-kosicky-kraj-masiarska-17-fgi2bp0k/booking?menu=true&pId=672359">
+            <Button
+              w={['full', 'auto']}
+              size="lg"
+              colorScheme="brand"
+              color="black"
+            >
+              Rezervácia
+            </Button>
+          </Link>
         </Stack>
       </Container>
 
       <Box bg="white">
         <Container maxW="container.xl">
-          <Box position="relative" bg="white" p="8" top="-16" shadow="xl">
+          <Box
+            position="relative"
+            rounded="md"
+            bg="gray.400"
+            p="8"
+            top="-16"
+            shadow="xl"
+          >
             <HStack textAlign="center" justify="space-around">
               <Box>
-                <Heading size="lg">
-                  9
-                  <Text fontSize="md" as="span">
-                    AM
-                  </Text>{' '}
-                  - 5
-                  <Text fontSize="md" as="span">
-                    PM
-                  </Text>
-                </Heading>
+                <Heading size="lg">9:00 - 21:00</Heading>
                 <Text textTransform="uppercase" opacity="0.7">
                   PON - SOB
                 </Text>
               </Box>
               <Box>
-                <Heading size="lg">Zavreté</Heading>
+                <Heading size="lg">Objednávka</Heading>
                 <Text textTransform="uppercase" opacity="0.7">
                   NED
                 </Text>

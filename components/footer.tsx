@@ -22,7 +22,7 @@ export const Footer = () => {
       <Container maxW="container.xl">
         <SimpleGrid columns={[1, 3]}>
           <HStack justify={['center', 'flex-start']} align="flex-start" pt="16">
-            <Image src="/logo.jpeg" alt="Nailbar" width={96} height={96} />
+            <Image src="/logo.png" alt="Nailbar" width={96} height={96} />
           </HStack>
 
           <Box pt="16">
@@ -36,14 +36,16 @@ export const Footer = () => {
             <HStack mb="6" spacing={4}>
               <Icon as={FiPhone} boxSize={6} color="brand.500" />
               <Text mb="2" color="white">
-                +421 948 760 528
+                <Link href="tel:+421950207789">+421 950 20 77 89</Link>
               </Text>
             </HStack>
 
             <HStack spacing={4}>
               <Icon as={FiMail} boxSize={6} color="brand.500" />
               <Text mb="2" color="white">
-                info@nailbar.sk
+                <Link href="mailto:nailbar.skk@gmail.com">
+                  nailbar.skk@gmail.com
+                </Link>
               </Text>
             </HStack>
           </Box>
@@ -54,10 +56,13 @@ export const Footer = () => {
             align="flex-start"
             pt="16"
           >
-            <Link>
+            <Link
+              target="_blank"
+              href="https://www.facebook.com/profile.php?id=100085635908032"
+            >
               <Icon as={FiFacebook} boxSize={6} color="brand.500" />
             </Link>
-            <Link>
+            <Link target="_blank" href="https://instagram.com/nailbar.sk">
               <Icon as={FiInstagram} boxSize={6} color="brand.500" />
             </Link>
           </HStack>

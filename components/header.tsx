@@ -7,13 +7,16 @@ export const Header = () => {
     <Box as="header" bg="gray.900" pt="8">
       <Container maxWidth="container.xl">
         <HStack spacing="0" justify="space-between">
-          <Image src="/logo.jpeg" alt="Nailbar" width={96} height={96} />
+          <Image src="/logo.png" alt="Nailbar" width={196} height={196} />
           <HStack spacing={6}>
-            <Link>
-              <Icon as={FiFacebook} boxSize={6} color="brand.500" />
+            <Link
+              target="_blank"
+              href="https://www.facebook.com/profile.php?id=100085635908032"
+            >
+              <Icon as={FiFacebook} boxSize={10} color="brand.500" />
             </Link>
-            <Link>
-              <Icon as={FiInstagram} boxSize={6} color="brand.500" />
+            <Link target="_blank" href="https://instagram.com/nailbar.sk">
+              <Icon as={FiInstagram} boxSize={10} color="brand.500" />
             </Link>
           </HStack>
         </HStack>
