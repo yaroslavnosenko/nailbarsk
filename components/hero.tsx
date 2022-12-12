@@ -25,7 +25,7 @@ export const Hero = () => {
 
         <SimpleGrid columns={[1, 3]} gap={[4, 8]}>
           <Box />
-          <Link href="https://www.fresha.com/uk/a/nail-bar-kosicky-kraj-masiarska-17-fgi2bp0k/booking?menu=true&pId=672359">
+          <Link href="https://www.fresha.com/a/nail-bar-kosicky-kraj-masiarska-17-fgi2bp0k/booking?menu=true&utm_source=instagram">
             <Button
               mb="12"
               w={['full', 'auto']}
@@ -87,7 +87,7 @@ export const Hero = () => {
               Tvoja najlepšia manikúra a pedikúra v Nail Bar
             </Heading>
           </Box>
-          <Link href="https://www.fresha.com/uk/a/nail-bar-kosicky-kraj-masiarska-17-fgi2bp0k/booking?menu=true&pId=672359">
+          <Link href="https://www.fresha.com/a/nail-bar-kosicky-kraj-masiarska-17-fgi2bp0k/booking?menu=true&utm_source=instagram">
             <Button
               w={['full', 'auto']}
               size="lg"
