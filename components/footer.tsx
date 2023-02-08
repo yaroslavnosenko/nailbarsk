@@ -29,7 +29,7 @@ export const Footer = () => {
             <HStack mb="6" spacing={4}>
               <Icon as={FiMapPin} boxSize={6} color="brand.500" />
               <Text mb="2" color="white">
-                Mäsiarska 17, 040 01 Košice
+                Alžbetina 18, 040 01 Košice
               </Text>
             </HStack>
 

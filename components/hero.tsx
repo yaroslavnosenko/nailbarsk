@@ -20,7 +20,7 @@ export const Hero = () => {
           Life is not perfect, but your nails can be
         </Heading>
         <Text mb="12" color="brand.500" textAlign="center">
-          Mäsiarska 17 • Košice
+          Alžbetina 18 • Košice
         </Text>
 
         <SimpleGrid columns={[1, 3]} gap={[4, 8]}>
@@ -112,13 +112,13 @@ export const Hero = () => {
           >
             <HStack textAlign="center" justify="space-around">
               <Box>
-                <Heading size="lg">9:00 - 21:00</Heading>
+                <Heading size="lg">9:00 - 19:00</Heading>
                 <Text textTransform="uppercase" opacity="0.7">
                   PON - SOB
                 </Text>
               </Box>
               <Box>
-                <Heading size="lg">Objednávka</Heading>
+                <Heading size="lg">Zatvorené</Heading>
                 <Text textTransform="uppercase" opacity="0.7">
                   NED
                 </Text>

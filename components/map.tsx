@@ -10,11 +10,11 @@ export const Map = () => {
         dprs={[1, 2]}
         height={300}
         defaultZoom={17}
-        defaultCenter={[48.72131, 21.25553]}
+        defaultCenter={[48.719690167480984, 21.255585830532578]}
         touchEvents={false}
         mouseEvents={false}
       >
-        <Marker width={50} anchor={[48.72131, 21.25553]} />
+        <Marker width={50} anchor={[48.719690167480984, 21.255585830532578]} />
       </MMap>
     </Box>
   )
