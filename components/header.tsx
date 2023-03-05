@@ -15,7 +15,7 @@ export const Header = () => {
             >
               <Icon as={FiFacebook} boxSize={10} color="brand.500" />
             </Link>
-            <Link target="_blank" href="https://instagram.com/nailbar.sk">
+            <Link target="_blank" href="https://instagram.com/nailbar.skk">
               <Icon as={FiInstagram} boxSize={10} color="brand.500" />
             </Link>
           </HStack>
