@@ -7,7 +7,9 @@ export const Header = () => {
     <Box as="header" bg="gray.900" pt="8">
       <Container maxWidth="container.xl">
         <HStack spacing="0" justify="space-between">
-          <Image src="/logo.png" alt="Nailbar" width={196} height={196} />
+          <Link href="/">
+            <Image src="/logo.png" alt="Nailbar" width={196} height={196} />
+          </Link>
           <HStack spacing={6}>
             <Link
               target="_blank"

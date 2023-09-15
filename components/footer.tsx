@@ -68,7 +68,7 @@ export const Footer = () => {
           </HStack>
         </SimpleGrid>
         <Box pt="16" pb="8" textAlign="center" color="white">
-          © Copyright 2022 nailbar.sk
+          © Copyright {new Date().getFullYear()} nailbar.sk
         </Box>
       </Container>
     </Box>
