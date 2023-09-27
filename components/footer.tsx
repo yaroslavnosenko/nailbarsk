@@ -62,7 +62,10 @@ export const Footer = () => {
             >
               <Icon as={FiFacebook} boxSize={6} color="brand.500" />
             </Link>
-            <Link target="_blank" href="https://instagram.com/nailbar.skk">
+            <Link
+              target="_blank"
+              href="https://www.instagram.com/nailbar.sk_kosice/"
+            >
               <Icon as={FiInstagram} boxSize={6} color="brand.500" />
             </Link>
           </HStack>

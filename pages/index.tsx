@@ -35,7 +35,7 @@ const Home: NextPage = () => {
             </Text>
           </Container>
           <SimpleGrid columns={[1, 1, 2]}>
-            <Link href="/bratislava">
+            <Link href="https://www.tenbeauty.sk/">
               <AspectRatio scale={1} cursor="pointer">
                 <Box pos="relative">
                   <Image
