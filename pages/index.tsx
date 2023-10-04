@@ -6,7 +6,6 @@ import {
   SimpleGrid,
   AspectRatio,
   Image,
-  Flex,
   Center,
 } from '@chakra-ui/react'
 import type { NextPage } from 'next'
@@ -35,7 +34,7 @@ const Home: NextPage = () => {
             </Text>
           </Container>
           <SimpleGrid columns={[1, 1, 2]}>
-            <Link href="https://www.tenbeauty.sk/">
+            <Link href="https://www.tenbeauty.sk/bratislava">
               <AspectRatio scale={1} cursor="pointer">
                 <Box pos="relative">
                   <Image
